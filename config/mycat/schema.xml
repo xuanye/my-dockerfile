@@ -2,7 +2,9 @@
 <!DOCTYPE mycat:schema SYSTEM "schema.dtd">
 <mycat:schema xmlns:mycat="http://io.mycat/">
 
+	<!--这里是逻辑库的设定-->
 	<schema name="mall" checkSQLschema="false" sqlMaxLimit="100" dataNode="mallDN">
+		<!--子节点 Table 可以设定每个逻辑表的具体分片设定-->
 
 	</schema>
 

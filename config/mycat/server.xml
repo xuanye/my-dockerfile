@@ -13,9 +13,9 @@
 	<property name="useSqlStat">0</property>  <!-- 1为开启实时统计、0为关闭 -->
 	<property name="useGlobleTableCheck">0</property>  <!-- 1为开启全加班一致性检测、0为关闭 -->
 
-		<property name="sequnceHandlerType">2</property>
-      <!--  <property name="useCompression">1</property>--> <!--1为开启mysql压缩协议-->
-        <!--  <property name="fakeMySQLVersion">5.6.20</property>--> <!--设置模拟的MySQL版本号-->
+	<property name="sequnceHandlerType">2</property>
+    <!--  <property name="useCompression">1</property>--> <!--1为开启mysql压缩协议-->
+    <!--  <property name="fakeMySQLVersion">5.6.20</property>--> <!--设置模拟的MySQL版本号-->
 	<!-- <property name="processorBufferChunk">40960</property> -->
 	<!--
 	<property name="processors">1</property>
@@ -70,14 +70,14 @@
 	   <whitehost>
 	      <host host="172.18.0.2" user="root"/>
 	      <host host="172.18.0.3" user="root"/>
-				<host host="172.18.0.4" user="root"/>
+	      <host host="172.18.0.4" user="root"/>
 	   </whitehost>
        <blacklist check="false">
        </blacklist>
 	</firewall>-->
 
 	<user name="root">
-		<property name="password">jiabin</property>
+		<property name="password">welcome@123</property>
 		<property name="schemas">mall</property>
 
 		<!-- 表级 DML 权限设置 -->
