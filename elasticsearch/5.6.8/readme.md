@@ -1,0 +1,1 @@
+elasticsearch 5.6.8 版本 内置了ik分词
